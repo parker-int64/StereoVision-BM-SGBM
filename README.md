@@ -26,6 +26,9 @@ mingw-make -j4
 ```
 ## 运行结果
 ![运行图](https://raw.githubusercontent.com/parker-int64/StereoVision-BM-SGBM/master/data/running.png)
++ 双目分辨率是1280*480，**图中的分辨率有误，应该为每秒10帧左右**
++ 最后运算完成后得到深度图时间在**0.19~0.21**秒之间，**也即FPS大概为5**。
++ 降低分辨率可以提升运算速度
 ## 使用说明
 本项目使用cvui界面进行参数调试:  
 [cvui](https://github.com/Dovyski/cvui/)  
