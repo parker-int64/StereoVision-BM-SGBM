@@ -25,6 +25,7 @@ mingw-make -j4
 ./main.exe
 ```
 ## 运行结果
+![运行图](https://raw.githubusercontent.com/parker-int64/StereoVision-BM-SGBM/master/data/running.png)
 ## 使用说明
 本项目使用cvui界面进行参数调试:  
 [cvui](https://github.com/Dovyski/cvui/)  
@@ -34,3 +35,4 @@ mingw-make -j4
 + 按钮`Load Parameter`用以从文件加载参数
 + 按钮`Run Stereo Calibration`暂时还没整合进来（项目是直接写入摄像头参数到变量中，没有生成yml文件）
 + 按钮`Exit`退出程序
++ 紫色变量是对生成的深度图质量好坏影响很大的变量
