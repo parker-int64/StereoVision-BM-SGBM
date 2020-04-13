@@ -1,0 +1,27 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "C:\\Development\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g",
+                "-std=c++11",
+                "${file}",
+                "-o",
+                "C:/Users/INTEL/Desktop/StereoMatch/debug/${fileBasenameNoExtension}.exe",
+                "-I","C:\\Development\\opencv411\\include\\",
+                "-I","C:\\Development\\opencv411\\include\\opencv",
+                "-I","C:\\Development\\opencv411\\include\\opencv2",
+                "-I","C:\\Program Files (x86)\\freetype\\include\\freetype2\\freetype",
+                "-L","C:\\Development\\opencv411\\x64\\mingw\\lib",
+                "-l","opencv_world411",
+                "-l","pthread"
+            ],
+            "options": {
+                "cwd": "C:\\Development\\mingw64"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

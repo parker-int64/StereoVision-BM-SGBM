@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+my_object:
+   format: 3
+   name: "StereoMatcher.BM"
+   minDisparity: 0
+   numDisparities: 16
+   blockSize: 5
+   speckleWindowSize: 100
+   speckleRange: 32
+   disp12MaxDiff: -1
+   preFilterType: 1
+   preFilterSize: 11
+   preFilterCap: 31
+   textureThreshold: 0
+   uniquenessRatio: 10
