@@ -1,1 +1,0 @@
-  -LC:/Development/opencv411/x64/mingw/lib  -lopencv_world411 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
