@@ -137,6 +137,11 @@ void process_frame::stereo_total(){
         //stereoBinaryBM(leftBM,rightBM);
         switchAlg == true ? stereo_matchSGBM(rectify_left,rectify_right) : stereo_matchBM(leftBM,rightBM,validROIL,validROIR);
         resolve_coodinates();
+#ifdef DEBUG        
+        double time_consume = (double)(getTickCount() - start1) / getTickFrequency();
+        double fps1 = 1 / time_consume;
+        std::cout << "Total time comsume:"<<time_consume<<", FPS:"<<fps1<<std::endl;
+#endif //DEBUG        
         if(key == 'S' || key == 's')switchAlg = !switchAlg;
         else if(key == 27 || key == 'q' || key == 'Q' || exitButton)break;     
     }
