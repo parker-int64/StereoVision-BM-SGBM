@@ -1,3 +1,4 @@
+# 较为实用的第二版已经发布，branch下选择stereoMatch-0.2.0以查看
 # StereoVision-BM-SGBM
 ## OpenCV 双目BM和SGBM算法
 ### 环境说明: 
