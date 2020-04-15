@@ -25,4 +25,4 @@ cd ../bin
 ./stereoMatch.exe
 ```
 选用**release**来编译，设置`-DCMAKE_BUILD_TYPE=Release`，帧数会略微提高。  
-默认生成的是点[160,120]也即视差图重点的坐标
+默认生成的是点[160,120]也即视差图中点的世界坐标。
