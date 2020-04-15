@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+my_object:
+   format: 3
+   name: "StereoMatcher.SGBM"
+   minDisparity: 0
+   numDisparities: 48
+   blockSize: 3
+   speckleWindowSize: 100
+   speckleRange: 2
+   disp12MaxDiff: -1
+   preFilterCap: 61
+   uniquenessRatio: 6
+   P1: 216
+   P2: 864
+   mode: 1

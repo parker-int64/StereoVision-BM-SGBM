@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/stereoMatch-v0.2.0-Publish/build",
+  "command": "g++  -DDEBUG @CMakeFiles/stereoMatch.dir/includes_CXX.rsp  -std=c++11 -pthread -g   -o CMakeFiles\\stereoMatch.dir\\src\\main.cpp.obj -c D:\\stereoMatch-v0.2.0-Publish\\src\\main.cpp",
+  "file": "D:/stereoMatch-v0.2.0-Publish/src/main.cpp"
+},
+{
+  "directory": "D:/stereoMatch-v0.2.0-Publish/build",
+  "command": "g++  -DDEBUG @CMakeFiles/stereoMatch.dir/includes_CXX.rsp  -std=c++11 -pthread -g   -o CMakeFiles\\stereoMatch.dir\\src\\receiver.cpp.obj -c D:\\stereoMatch-v0.2.0-Publish\\src\\receiver.cpp",
+  "file": "D:/stereoMatch-v0.2.0-Publish/src/receiver.cpp"
+},
+{
+  "directory": "D:/stereoMatch-v0.2.0-Publish/build",
+  "command": "g++  -DDEBUG @CMakeFiles/stereoMatch.dir/includes_CXX.rsp  -std=c++11 -pthread -g   -o CMakeFiles\\stereoMatch.dir\\src\\serial.cpp.obj -c D:\\stereoMatch-v0.2.0-Publish\\src\\serial.cpp",
+  "file": "D:/stereoMatch-v0.2.0-Publish/src/serial.cpp"
+},
+{
+  "directory": "D:/stereoMatch-v0.2.0-Publish/build",
+  "command": "g++  -DDEBUG @CMakeFiles/stereoMatch.dir/includes_CXX.rsp  -std=c++11 -pthread -g   -o CMakeFiles\\stereoMatch.dir\\src\\stereoMatch.cpp.obj -c D:\\stereoMatch-v0.2.0-Publish\\src\\stereoMatch.cpp",
+  "file": "D:/stereoMatch-v0.2.0-Publish/src/stereoMatch.cpp"
+}
+]

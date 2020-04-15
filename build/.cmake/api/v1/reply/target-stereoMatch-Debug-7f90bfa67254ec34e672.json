@@ -1,0 +1,349 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/stereoMatch-v0.2.0-Publish/bin/stereoMatch.exe"
+		},
+		{
+			"path" : "D:/stereoMatch-v0.2.0-Publish/bin/stereoMatch.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -pthread -g  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "DEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/stereoMatch-v0.2.0-Publish/./include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "C:/Development/opencv411/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"id" : "stereoMatch::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -pthread -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_img_hash411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\Development\\opencv411\\x64\\mingw\\lib\\libopencv_world411.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "stereoMatch",
+	"nameOnDisk" : "stereoMatch.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/receiver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/serial.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/stereoMatch.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
