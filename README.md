@@ -4,7 +4,7 @@ OpenCV StereoBM &amp; StereoSGBM
 环境没有变化  
 在StereoBM算法下帧率可以达到40~50，StereoSGBM下帧率能达到20帧。  
 就匹配结果来看，StereoSGBM得出的世界坐标更为准确，但是StereoBM的运行速度更快。  
-这一版加上了**串口传输**，默认COM5为通信口，可根据需求改（在`serial.hpp`中修改COM口）。    
+这一版加上了**UDP信息接收**，**串口传输**，默认22500端口，COM5为通信口，可根据需求改（在`serial.hpp`中修改COM口）。    
 ![运行图](https://raw.githubusercontent.com/parker-int64/StereoVision-BM-SGBM/stereoMatch-0.2.0/data/Debug_running.png)
 
 ## 运行方式
