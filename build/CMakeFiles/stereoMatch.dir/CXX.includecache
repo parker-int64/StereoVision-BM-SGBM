@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../include/cvui.h
+../stereoMatch/include/cvui.h
 cvui.h
-../include/cvui.h
+../stereoMatch/include/cvui.h
 opencv2/opencv.hpp
 -
 cvui.h
-../include/cvui.h
+../stereoMatch/include/cvui.h
 iostream
 -
 vector
@@ -28,7 +28,7 @@ opencv2/highgui/highgui.hpp
 opencv2/core/core.hpp
 -
 
-../include/receiver.hpp
+../stereoMatch/include/receiver.hpp
 iostream
 -
 opencv2/opencv.hpp
@@ -36,17 +36,17 @@ opencv2/opencv.hpp
 thread
 -
 
-../include/serial.h
+../stereoMatch/include/serial.h
 iostream
 -
 windows.h
 -
 
-../include/stereoMatch.hpp
+../stereoMatch/include/stereoMatch.hpp
 receiver.hpp
-../include/receiver.hpp
+../stereoMatch/include/receiver.hpp
 serial.h
-../include/serial.h
+../stereoMatch/include/serial.h
 
 C:/Development/opencv411/include/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -1282,11 +1282,9 @@ C:/Development/opencv411/include/opencv2/videostab/opencv2/videostab/global_moti
 opencv2/videostab/log.hpp
 C:/Development/opencv411/include/opencv2/videostab/opencv2/videostab/log.hpp
 
-D:/stereoMatch-v0.2.0-Publish/src/stereoMatch.cpp
+D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/stereoMatch.cpp
 stereoMatch.hpp
-D:/stereoMatch-v0.2.0-Publish/src/stereoMatch.hpp
-pthread.h
--
+D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/stereoMatch.hpp
 cvui.h
-D:/stereoMatch-v0.2.0-Publish/src/cvui.h
+D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/cvui.h
 

@@ -46,6 +46,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.0-rc2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.16.0-rc2/CMakeSystem.cmake"
+  "../socketServer/CMakeLists.txt"
+  "../stereoMatch/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -61,5 +63,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/socketServer.dir/DependInfo.cmake"
   "CMakeFiles/stereoMatch.dir/DependInfo.cmake"
   )

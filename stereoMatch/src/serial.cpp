@@ -9,7 +9,6 @@ serial::serial(){
 }
 
 bool serial::openPort(){
-    serial();
     hCom = CreateFileA(comName,GENERIC_READ | GENERIC_WRITE, // 存储方式读写
                         0,               //独占方式
                         NULL,
@@ -73,10 +72,10 @@ bool serial::writePort(char *outputBuffer){
 #endif // DEBUG
         return false;
     } else {
-#ifdef DEBUG
-    std::cout << "串口写入成功!";
-    std::cout << " 写入数据："<< outputBuffer[0]<<outputBuffer[1]<<outputBuffer[2]<<outputBuffer[3]<< std::endl;
-#endif // DEBUG
+// #ifdef DEBUG
+        std::cout << "串口写入成功!";
+        std::cout << " 写入数据："<< outputBuffer[0]<<outputBuffer[1]<<outputBuffer[2]<<outputBuffer[3]<< std::endl;
+// #endif // DEBUG
         return true;
         }
     PurgeComm(hCom, PURGE_TXABORT|PURGE_RXABORT|PURGE_TXCLEAR|PURGE_RXCLEAR);

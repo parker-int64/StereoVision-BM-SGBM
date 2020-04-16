@@ -3,10 +3,10 @@ file(REMOVE_RECURSE
   "../bin/stereoMatch.exe"
   "../bin/stereoMatch.exe.manifest"
   "../bin/stereoMatch.pdb"
-  "CMakeFiles/stereoMatch.dir/src/main.cpp.obj"
-  "CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj"
-  "CMakeFiles/stereoMatch.dir/src/serial.cpp.obj"
-  "CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj"
+  "CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj"
+  "CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj"
+  "CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj"
+  "CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.

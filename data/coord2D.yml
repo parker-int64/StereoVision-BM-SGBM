@@ -1,3 +1,5 @@
 %YAML:1.0
 ---
-POINT_2D: [ 0, 0 ]
+# This coordinates is auto generated,do not edit!
+Default: [ 0, 0 ]
+POINT_2D: [ 5.6450000000000003e+01, 79. ]

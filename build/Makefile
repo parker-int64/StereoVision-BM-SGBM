@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named socketServer
+
+# Build rule for target.
+socketServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 socketServer
+.PHONY : socketServer
+
+# fast build rule for target.
+socketServer/fast:
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/build
+.PHONY : socketServer/fast
+
+#=============================================================================
 # Target rules for targets named stereoMatch
 
 # Build rule for target.
@@ -122,113 +135,140 @@ stereoMatch/fast:
 	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/build
 .PHONY : stereoMatch/fast
 
-src/main.obj: src/main.cpp.obj
+socketServer/src/socketServer.obj: socketServer/src/socketServer.cpp.obj
 
-.PHONY : src/main.obj
-
-# target to build an object file
-src/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
-
-src/main.i: src/main.cpp.i
-
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
-src/receiver.obj: src/receiver.cpp.obj
-
-.PHONY : src/receiver.obj
+.PHONY : socketServer/src/socketServer.obj
 
 # target to build an object file
-src/receiver.cpp.obj:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj
-.PHONY : src/receiver.cpp.obj
+socketServer/src/socketServer.cpp.obj:
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/socketServer/src/socketServer.cpp.obj
+.PHONY : socketServer/src/socketServer.cpp.obj
 
-src/receiver.i: src/receiver.cpp.i
+socketServer/src/socketServer.i: socketServer/src/socketServer.cpp.i
 
-.PHONY : src/receiver.i
+.PHONY : socketServer/src/socketServer.i
 
 # target to preprocess a source file
-src/receiver.cpp.i:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/receiver.cpp.i
-.PHONY : src/receiver.cpp.i
+socketServer/src/socketServer.cpp.i:
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/socketServer/src/socketServer.cpp.i
+.PHONY : socketServer/src/socketServer.cpp.i
 
-src/receiver.s: src/receiver.cpp.s
+socketServer/src/socketServer.s: socketServer/src/socketServer.cpp.s
 
-.PHONY : src/receiver.s
+.PHONY : socketServer/src/socketServer.s
 
 # target to generate assembly for a file
-src/receiver.cpp.s:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/receiver.cpp.s
-.PHONY : src/receiver.cpp.s
+socketServer/src/socketServer.cpp.s:
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/socketServer/src/socketServer.cpp.s
+.PHONY : socketServer/src/socketServer.cpp.s
 
-src/serial.obj: src/serial.cpp.obj
+stereoMatch/src/main.obj: stereoMatch/src/main.cpp.obj
 
-.PHONY : src/serial.obj
+.PHONY : stereoMatch/src/main.obj
 
 # target to build an object file
-src/serial.cpp.obj:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/serial.cpp.obj
-.PHONY : src/serial.cpp.obj
+stereoMatch/src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj
+.PHONY : stereoMatch/src/main.cpp.obj
 
-src/serial.i: src/serial.cpp.i
+stereoMatch/src/main.i: stereoMatch/src/main.cpp.i
 
-.PHONY : src/serial.i
+.PHONY : stereoMatch/src/main.i
 
 # target to preprocess a source file
-src/serial.cpp.i:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/serial.cpp.i
-.PHONY : src/serial.cpp.i
+stereoMatch/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.i
+.PHONY : stereoMatch/src/main.cpp.i
 
-src/serial.s: src/serial.cpp.s
+stereoMatch/src/main.s: stereoMatch/src/main.cpp.s
 
-.PHONY : src/serial.s
+.PHONY : stereoMatch/src/main.s
 
 # target to generate assembly for a file
-src/serial.cpp.s:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/serial.cpp.s
-.PHONY : src/serial.cpp.s
+stereoMatch/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.s
+.PHONY : stereoMatch/src/main.cpp.s
 
-src/stereoMatch.obj: src/stereoMatch.cpp.obj
+stereoMatch/src/receiver.obj: stereoMatch/src/receiver.cpp.obj
 
-.PHONY : src/stereoMatch.obj
+.PHONY : stereoMatch/src/receiver.obj
 
 # target to build an object file
-src/stereoMatch.cpp.obj:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj
-.PHONY : src/stereoMatch.cpp.obj
+stereoMatch/src/receiver.cpp.obj:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj
+.PHONY : stereoMatch/src/receiver.cpp.obj
 
-src/stereoMatch.i: src/stereoMatch.cpp.i
+stereoMatch/src/receiver.i: stereoMatch/src/receiver.cpp.i
 
-.PHONY : src/stereoMatch.i
+.PHONY : stereoMatch/src/receiver.i
 
 # target to preprocess a source file
-src/stereoMatch.cpp.i:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.i
-.PHONY : src/stereoMatch.cpp.i
+stereoMatch/src/receiver.cpp.i:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.i
+.PHONY : stereoMatch/src/receiver.cpp.i
 
-src/stereoMatch.s: src/stereoMatch.cpp.s
+stereoMatch/src/receiver.s: stereoMatch/src/receiver.cpp.s
 
-.PHONY : src/stereoMatch.s
+.PHONY : stereoMatch/src/receiver.s
 
 # target to generate assembly for a file
-src/stereoMatch.cpp.s:
-	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.s
-.PHONY : src/stereoMatch.cpp.s
+stereoMatch/src/receiver.cpp.s:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.s
+.PHONY : stereoMatch/src/receiver.cpp.s
+
+stereoMatch/src/serial.obj: stereoMatch/src/serial.cpp.obj
+
+.PHONY : stereoMatch/src/serial.obj
+
+# target to build an object file
+stereoMatch/src/serial.cpp.obj:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj
+.PHONY : stereoMatch/src/serial.cpp.obj
+
+stereoMatch/src/serial.i: stereoMatch/src/serial.cpp.i
+
+.PHONY : stereoMatch/src/serial.i
+
+# target to preprocess a source file
+stereoMatch/src/serial.cpp.i:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.i
+.PHONY : stereoMatch/src/serial.cpp.i
+
+stereoMatch/src/serial.s: stereoMatch/src/serial.cpp.s
+
+.PHONY : stereoMatch/src/serial.s
+
+# target to generate assembly for a file
+stereoMatch/src/serial.cpp.s:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.s
+.PHONY : stereoMatch/src/serial.cpp.s
+
+stereoMatch/src/stereoMatch.obj: stereoMatch/src/stereoMatch.cpp.obj
+
+.PHONY : stereoMatch/src/stereoMatch.obj
+
+# target to build an object file
+stereoMatch/src/stereoMatch.cpp.obj:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj
+.PHONY : stereoMatch/src/stereoMatch.cpp.obj
+
+stereoMatch/src/stereoMatch.i: stereoMatch/src/stereoMatch.cpp.i
+
+.PHONY : stereoMatch/src/stereoMatch.i
+
+# target to preprocess a source file
+stereoMatch/src/stereoMatch.cpp.i:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.i
+.PHONY : stereoMatch/src/stereoMatch.cpp.i
+
+stereoMatch/src/stereoMatch.s: stereoMatch/src/stereoMatch.cpp.s
+
+.PHONY : stereoMatch/src/stereoMatch.s
+
+# target to generate assembly for a file
+stereoMatch/src/stereoMatch.cpp.s:
+	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.s
+.PHONY : stereoMatch/src/stereoMatch.cpp.s
 
 # Help Target
 help:
@@ -236,21 +276,25 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... socketServer
 	@echo ... stereoMatch
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
-	@echo ... src/receiver.obj
-	@echo ... src/receiver.i
-	@echo ... src/receiver.s
-	@echo ... src/serial.obj
-	@echo ... src/serial.i
-	@echo ... src/serial.s
-	@echo ... src/stereoMatch.obj
-	@echo ... src/stereoMatch.i
-	@echo ... src/stereoMatch.s
+	@echo ... socketServer/src/socketServer.obj
+	@echo ... socketServer/src/socketServer.i
+	@echo ... socketServer/src/socketServer.s
+	@echo ... stereoMatch/src/main.obj
+	@echo ... stereoMatch/src/main.i
+	@echo ... stereoMatch/src/main.s
+	@echo ... stereoMatch/src/receiver.obj
+	@echo ... stereoMatch/src/receiver.i
+	@echo ... stereoMatch/src/receiver.s
+	@echo ... stereoMatch/src/serial.obj
+	@echo ... stereoMatch/src/serial.i
+	@echo ... stereoMatch/src/serial.s
+	@echo ... stereoMatch/src/stereoMatch.obj
+	@echo ... stereoMatch/src/stereoMatch.i
+	@echo ... stereoMatch/src/stereoMatch.s
 .PHONY : help
 
 

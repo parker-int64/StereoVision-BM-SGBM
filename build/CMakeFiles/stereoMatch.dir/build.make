@@ -56,76 +56,76 @@ include CMakeFiles/stereoMatch.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/stereoMatch.dir/flags.make
 
-CMakeFiles/stereoMatch.dir/src/main.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
-CMakeFiles/stereoMatch.dir/src/main.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
-CMakeFiles/stereoMatch.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereoMatch.dir/src/main.cpp.obj"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\src\main.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\src\main.cpp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
+CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj: ../stereoMatch/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\stereoMatch\src\main.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\main.cpp
 
-CMakeFiles/stereoMatch.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/src/main.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\src\main.cpp > CMakeFiles\stereoMatch.dir\src\main.cpp.i
+CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\main.cpp > CMakeFiles\stereoMatch.dir\stereoMatch\src\main.cpp.i
 
-CMakeFiles/stereoMatch.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/src/main.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\src\main.cpp -o CMakeFiles\stereoMatch.dir\src\main.cpp.s
+CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\main.cpp -o CMakeFiles\stereoMatch.dir\stereoMatch\src\main.cpp.s
 
-CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
-CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
-CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj: ../src/receiver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\src\receiver.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\src\receiver.cpp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
+CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj: ../stereoMatch/src/serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\stereoMatch\src\serial.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\serial.cpp
 
-CMakeFiles/stereoMatch.dir/src/receiver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/src/receiver.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\src\receiver.cpp > CMakeFiles\stereoMatch.dir\src\receiver.cpp.i
+CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\serial.cpp > CMakeFiles\stereoMatch.dir\stereoMatch\src\serial.cpp.i
 
-CMakeFiles/stereoMatch.dir/src/receiver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/src/receiver.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\src\receiver.cpp -o CMakeFiles\stereoMatch.dir\src\receiver.cpp.s
+CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\serial.cpp -o CMakeFiles\stereoMatch.dir\stereoMatch\src\serial.cpp.s
 
-CMakeFiles/stereoMatch.dir/src/serial.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
-CMakeFiles/stereoMatch.dir/src/serial.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
-CMakeFiles/stereoMatch.dir/src/serial.cpp.obj: ../src/serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stereoMatch.dir/src/serial.cpp.obj"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\src\serial.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\src\serial.cpp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
+CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj: ../stereoMatch/src/receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\stereoMatch\src\receiver.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\receiver.cpp
 
-CMakeFiles/stereoMatch.dir/src/serial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/src/serial.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\src\serial.cpp > CMakeFiles\stereoMatch.dir\src\serial.cpp.i
+CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\receiver.cpp > CMakeFiles\stereoMatch.dir\stereoMatch\src\receiver.cpp.i
 
-CMakeFiles/stereoMatch.dir/src/serial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/src/serial.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\src\serial.cpp -o CMakeFiles\stereoMatch.dir\src\serial.cpp.s
+CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\receiver.cpp -o CMakeFiles\stereoMatch.dir\stereoMatch\src\receiver.cpp.s
 
-CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
-CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
-CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj: ../src/stereoMatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\src\stereoMatch.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\src\stereoMatch.cpp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj: CMakeFiles/stereoMatch.dir/flags.make
+CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj: CMakeFiles/stereoMatch.dir/includes_CXX.rsp
+CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj: ../stereoMatch/src/stereoMatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\stereoMatch.dir\stereoMatch\src\stereoMatch.cpp.obj -c D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\stereoMatch.cpp
 
-CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\src\stereoMatch.cpp > CMakeFiles\stereoMatch.dir\src\stereoMatch.cpp.i
+CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\stereoMatch.cpp > CMakeFiles\stereoMatch.dir\stereoMatch\src\stereoMatch.cpp.i
 
-CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\src\stereoMatch.cpp -o CMakeFiles\stereoMatch.dir\src\stereoMatch.cpp.s
+CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\stereoMatch-v0.2.0-Publish\stereoMatch\src\stereoMatch.cpp -o CMakeFiles\stereoMatch.dir\stereoMatch\src\stereoMatch.cpp.s
 
 # Object files for target stereoMatch
 stereoMatch_OBJECTS = \
-"CMakeFiles/stereoMatch.dir/src/main.cpp.obj" \
-"CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj" \
-"CMakeFiles/stereoMatch.dir/src/serial.cpp.obj" \
-"CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj"
+"CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj" \
+"CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj" \
+"CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj" \
+"CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj"
 
 # External object files for target stereoMatch
 stereoMatch_EXTERNAL_OBJECTS =
 
-../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/src/main.cpp.obj
-../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj
-../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/src/serial.cpp.obj
-../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj
+../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj
+../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj
+../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj
+../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj
 ../bin/stereoMatch.exe: CMakeFiles/stereoMatch.dir/build.make
 ../bin/stereoMatch.exe: C:/Development/opencv411/x64/mingw/lib/libopencv_world411.dll.a
 ../bin/stereoMatch.exe: C:/Development/opencv411/x64/mingw/lib/libopencv_world411.dll.a

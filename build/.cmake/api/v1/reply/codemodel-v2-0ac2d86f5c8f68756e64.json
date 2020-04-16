@@ -14,11 +14,12 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -29,7 +30,8 @@
 					"name" : "StereoMatch",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -37,8 +39,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "socketServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-socketServer-Release-0c0cfbb1a2a011cc0f8f.json",
+					"name" : "socketServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "stereoMatch::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-stereoMatch-Debug-7f90bfa67254ec34e672.json",
+					"jsonFile" : "target-stereoMatch-Release-8f17c9b6ea71aad2429c.json",
 					"name" : "stereoMatch",
 					"projectIndex" : 0
 				}

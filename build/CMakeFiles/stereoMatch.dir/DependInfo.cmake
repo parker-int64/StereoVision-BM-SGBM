@@ -4,21 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/stereoMatch-v0.2.0-Publish/src/main.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/src/main.cpp.obj"
-  "D:/stereoMatch-v0.2.0-Publish/src/receiver.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/src/receiver.cpp.obj"
-  "D:/stereoMatch-v0.2.0-Publish/src/serial.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/src/serial.cpp.obj"
-  "D:/stereoMatch-v0.2.0-Publish/src/stereoMatch.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/src/stereoMatch.cpp.obj"
+  "D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/main.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/stereoMatch/src/main.cpp.obj"
+  "D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/receiver.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/stereoMatch/src/receiver.cpp.obj"
+  "D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/serial.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/stereoMatch/src/serial.cpp.obj"
+  "D:/stereoMatch-v0.2.0-Publish/stereoMatch/src/stereoMatch.cpp" "D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir/stereoMatch/src/stereoMatch.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DEBUG"
-  )
-
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  ".././include"
+  "../stereoMatch/include"
   "C:/Development/opencv411/include"
   )
 

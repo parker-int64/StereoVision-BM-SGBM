@@ -1,0 +1,3 @@
+C:\Development\cmake-3.16.0-rc2-win64-x64\bin\cmake.exe -E remove -f CMakeFiles\socketServer.dir/objects.a
+C:\Development\mingw64\x86_64-w64-mingw32\bin\ar.exe cr CMakeFiles\socketServer.dir/objects.a @CMakeFiles\socketServer.dir\objects1.rsp
+g++  -std=c++11 -pthread -O3 -DNDEBUG   -Wl,--whole-archive CMakeFiles\socketServer.dir/objects.a -Wl,--no-whole-archive  -o ..\bin\socketServer.exe -Wl,--out-implib,..\bin\libsocketServer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\socketServer.dir\linklibs.rsp

@@ -52,6 +52,7 @@ CMAKE_BINARY_DIR = D:\stereoMatch-v0.2.0-Publish\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/socketServer.dir/all
 all: CMakeFiles/stereoMatch.dir/all
 
 .PHONY : all
@@ -62,9 +63,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/socketServer.dir/clean
 clean: CMakeFiles/stereoMatch.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/socketServer.dir
+
+# All Build rule for target.
+CMakeFiles/socketServer.dir/all:
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/depend
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=1,2 "Built target socketServer"
+.PHONY : CMakeFiles/socketServer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/socketServer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/socketServer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles 0
+.PHONY : CMakeFiles/socketServer.dir/rule
+
+# Convenience name for target.
+socketServer: CMakeFiles/socketServer.dir/rule
+
+.PHONY : socketServer
+
+# clean rule for target.
+CMakeFiles/socketServer.dir/clean:
+	$(MAKE) -f CMakeFiles\socketServer.dir\build.make CMakeFiles/socketServer.dir/clean
+.PHONY : CMakeFiles/socketServer.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/stereoMatch.dir
@@ -73,7 +102,7 @@ clean: CMakeFiles/stereoMatch.dir/clean
 CMakeFiles/stereoMatch.dir/all:
 	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/depend
 	$(MAKE) -f CMakeFiles\stereoMatch.dir\build.make CMakeFiles/stereoMatch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target stereoMatch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\stereoMatch-v0.2.0-Publish\build\CMakeFiles --progress-num=3,4,5,6,7 "Built target stereoMatch"
 .PHONY : CMakeFiles/stereoMatch.dir/all
 
 # Build rule for subdir invocation for target.

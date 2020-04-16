@@ -1,5 +1,4 @@
 #include "stereoMatch.hpp"
-#include <pthread.h>
 #define CVUI_IMPLEMENTATION
 #include "cvui.h"
 #define WINDOW1_NAME "Control Panel"
@@ -75,9 +74,6 @@ void stereoMatch::stereoTotal(){
     cvui::init(WINDOW1_NAME);
 #endif // DEBUG
 
-
-    stereoMatch();  //载入参数
-
     stereoRectify(cameraMatrixL, distCoeffL, 
                   cameraMatrixR, distCoeffR, 
                   imageSize, R, T, Rl, Rr, Pl, Pr, Q, 
@@ -141,7 +137,7 @@ void stereoMatch::stereoTotal(){
         cvui::printf(0.4,0xCECECE,"z = %.2f",z);
         cvui::endColumn();
 #endif // DEBUG
-        // std::cout << "FPS:" << fps <<std::endl;
+        std::cout << "FPS:" << fps <<std::endl;
         if(key == 'S' || key == 's')switchAlg = !switchAlg;
         else if(key == 27 || key == 'q' || key == 'Q' || exitButton)break;
     }
@@ -243,6 +239,8 @@ void stereoMatch::resolveCoodinates(){
 
 #ifdef DEBUG
     Point input = Point(160,120);
+    // int coordX,coordY;
+    // udpReceive(coordX,coordY);
     reprojectImageTo3D(disp, xyz, Q,true);
     xyz = xyz * 16;
     x = xyz.at<Vec3f>(input)[0];
@@ -252,15 +250,17 @@ void stereoMatch::resolveCoodinates(){
     sprintf(outputBuffer,"%.2f\n%.2f\n%.2f\n",x,y,z);
     // std::cout << "x = "<< x <<",y = " << y << ",z = "<< z << std::endl;
 #else
-    Point input = Point(0,0);
+    Point2f input = Point2f(0.,0.);
     cv::FileStorage fsCoord("../data/coord2D.yml",FileStorage::READ); 
     if(!fsCoord.isOpened()){
         std::cout << "ERROR: failed to open the file!" << std::endl;
     } else{
         fsCoord["POINT_2D"] >> input;
         fsCoord.release();
-        if(input == Point(0,0)){
-            outputBuffer[35] = {'0'}; //没接到2D点，3D点全为0
+        if(input == Point2f(0.,0.)){
+            x = y = z = 0.;
+            memset(outputBuffer,'\0',35); //没接到2D点，3D点全为0
+            sprintf(outputBuffer,"%.2f\n%.2f\n%.2f\n",x,y,z);
         } else {
             reprojectImageTo3D(disp, xyz, Q,true);
             xyz = xyz * 16;
@@ -268,10 +268,10 @@ void stereoMatch::resolveCoodinates(){
             y = xyz.at<Vec3f>(input)[1];
             z = xyz.at<Vec3f>(input)[2];
             //TODO:数据处理
-            std::cout << "x = "<< x <<",y = " << y << ",z = "<< z << std::endl;
             memset(outputBuffer,'\0',35);
             sprintf(outputBuffer,"%.2f\n%.2f\n%.2f\n",x,y,z);
         }
+        std::cout << "x = "<< x <<",y = " << y << ",z = "<< z << std::endl;
         
     }
 #endif // DEBUG
@@ -397,3 +397,18 @@ void stereoMatch::launchSerial(char *outputbuffer){
     std::thread writer(serial::writePort,&serialPort,outputBuffer);
     writer.join();
 }
+
+
+
+/*---------------------放弃---------------*/
+/*------------------禁止套娃--------------*/
+/*--------------开销过大，IO过慢-----------*/
+// void stereoMatch::udpReceive(int &x,int &y){
+//     int coordX,coordY;
+//     socketSer socketSer;
+//     socketSer.socketInit();
+    
+//     socketSer.socketRecv(coordX,coordY);
+//     x = coordX;
+//     y = coordY;
+// }

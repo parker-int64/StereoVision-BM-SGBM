@@ -2,6 +2,7 @@
 #define __STEREO_MATCH_HPP
 #include "receiver.hpp"
 #include "serial.h"
+// #include "socketServer.h"
 class stereoMatch : public receiver{
     public:   
         stereoMatch();
@@ -11,6 +12,7 @@ class stereoMatch : public receiver{
         void stereoMatchSGBM(cv::Mat rectify_left,cv::Mat rectify_right);
         void resolveCoodinates();
         void launchSerial(char *outputbuffer);
+        // void udpReceive(int &x,int &y);
         char outputBuffer[35];                  // 写入串口的信息
     private:
         /*矫正过程中的局部变量*/

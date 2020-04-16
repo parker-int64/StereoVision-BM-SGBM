@@ -1,3 +1,4 @@
+D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/socketServer.dir
 D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/stereoMatch.dir
 D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/edit_cache.dir
 D:/stereoMatch-v0.2.0-Publish/build/CMakeFiles/rebuild_cache.dir
